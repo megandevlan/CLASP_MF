@@ -1,0 +1,15 @@
+2024-03-29 13:35:26,334 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.91:46573'
+2024-03-29 13:35:32,663 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.91:44739
+2024-03-29 13:35:32,664 - distributed.worker - INFO -          Listening to: tcp://128.117.208.91:44739
+2024-03-29 13:35:32,664 - distributed.worker - INFO -           Worker name:               PBSCluster-8
+2024-03-29 13:35:32,664 - distributed.worker - INFO -          dashboard at:       128.117.208.91:38387
+2024-03-29 13:35:32,664 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.102:44313
+2024-03-29 13:35:32,664 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:32,664 - distributed.worker - INFO -               Threads:                          1
+2024-03-29 13:35:32,664 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-03-29 13:35:32,664 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-8psb21x4
+2024-03-29 13:35:32,664 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:35,481 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-03-29 13:35:35,482 - distributed.worker - INFO -         Registered to: tcp://128.117.208.102:44313
+2024-03-29 13:35:35,482 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:35,482 - distributed.core - INFO - Starting established connection to tcp://128.117.208.102:44313

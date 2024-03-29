@@ -1,0 +1,16 @@
+2024-03-29 13:35:24,028 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.105:46347'
+2024-03-29 13:35:29,998 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.105:42711
+2024-03-29 13:35:29,999 - distributed.worker - INFO -          Listening to: tcp://128.117.208.105:42711
+2024-03-29 13:35:29,999 - distributed.worker - INFO -           Worker name:              PBSCluster-16
+2024-03-29 13:35:29,999 - distributed.worker - INFO -          dashboard at:      128.117.208.105:39957
+2024-03-29 13:35:29,999 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.102:44313
+2024-03-29 13:35:29,999 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:29,999 - distributed.worker - INFO -               Threads:                          1
+2024-03-29 13:35:29,999 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-03-29 13:35:29,999 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-8p5ntvh_
+2024-03-29 13:35:29,999 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:34,039 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-03-29 13:35:34,040 - distributed.worker - INFO -         Registered to: tcp://128.117.208.102:44313
+2024-03-29 13:35:34,041 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:34,041 - distributed.core - INFO - Starting established connection to tcp://128.117.208.102:44313
+2024-03-29 13:51:34,025 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.57 GiB -- Worker memory limit: 3.73 GiB

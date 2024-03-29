@@ -1,0 +1,16 @@
+2024-03-29 13:35:24,028 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.104:40091'
+2024-03-29 13:35:28,170 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.104:41023
+2024-03-29 13:35:28,170 - distributed.worker - INFO -          Listening to: tcp://128.117.208.104:41023
+2024-03-29 13:35:28,170 - distributed.worker - INFO -           Worker name:               PBSCluster-3
+2024-03-29 13:35:28,170 - distributed.worker - INFO -          dashboard at:      128.117.208.104:40741
+2024-03-29 13:35:28,170 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.102:44313
+2024-03-29 13:35:28,170 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:28,170 - distributed.worker - INFO -               Threads:                          1
+2024-03-29 13:35:28,170 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-03-29 13:35:28,171 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-lnk7l589
+2024-03-29 13:35:28,171 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:34,071 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-03-29 13:35:34,074 - distributed.worker - INFO -         Registered to: tcp://128.117.208.102:44313
+2024-03-29 13:35:34,074 - distributed.worker - INFO - -------------------------------------------------
+2024-03-29 13:35:34,075 - distributed.core - INFO - Starting established connection to tcp://128.117.208.102:44313
+2024-03-29 13:37:13,613 - distributed.core - INFO - Event loop was unresponsive in Worker for 6.81s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
