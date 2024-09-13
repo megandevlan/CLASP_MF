@@ -1,0 +1,76 @@
+2024-06-26 07:53:48,596 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.88:40987'
+2024-06-26 07:53:49,617 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.88:32773
+2024-06-26 07:53:49,618 - distributed.worker - INFO -          Listening to: tcp://128.117.208.88:32773
+2024-06-26 07:53:49,618 - distributed.worker - INFO -           Worker name:               PBSCluster-4
+2024-06-26 07:53:49,618 - distributed.worker - INFO -          dashboard at:       128.117.208.88:46865
+2024-06-26 07:53:49,618 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.115:45971
+2024-06-26 07:53:49,618 - distributed.worker - INFO - -------------------------------------------------
+2024-06-26 07:53:49,618 - distributed.worker - INFO -               Threads:                          1
+2024-06-26 07:53:49,618 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-26 07:53:49,618 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-svrs26mw
+2024-06-26 07:53:49,618 - distributed.worker - INFO - -------------------------------------------------
+2024-06-26 07:53:50,106 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-26 07:53:50,106 - distributed.worker - INFO -         Registered to: tcp://128.117.208.115:45971
+2024-06-26 07:53:50,106 - distributed.worker - INFO - -------------------------------------------------
+2024-06-26 07:53:50,107 - distributed.core - INFO - Starting established connection to tcp://128.117.208.115:45971
+2024-06-26 08:15:30,135 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 08:15:30,769 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 09:51:54,896 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 09:51:54,898 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.10s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 09:51:58,301 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 09:52:04,023 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 09:57:17,117 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.76s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 09:57:27,589 - distributed.core - INFO - Event loop was unresponsive in Worker for 10.47s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 09:57:45,887 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.73 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 09:57:45,890 - distributed.core - INFO - Event loop was unresponsive in Worker for 4.49s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 09:57:49,600 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 09:57:55,104 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 2.65 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:05:18,052 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.92 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:05:18,054 - distributed.core - INFO - Event loop was unresponsive in Worker for 9.85s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:05:19,601 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 3.03 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:05:26,502 - distributed.worker.memory - WARNING - Worker is at 71% memory usage. Resuming worker. Process memory: 2.65 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:07:13,920 - distributed.core - INFO - Event loop was unresponsive in Worker for 18.90s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:07:16,996 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.08s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:07:38,746 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.80 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:07:38,748 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.55s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:07:41,800 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.00 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:07:48,801 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.38 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:07:49,229 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:16:35,161 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.26s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:16:51,606 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.84 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:16:51,606 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.81s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:16:52,800 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:17:00,429 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:17:31,410 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 3.11 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:17:31,411 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.11 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:17:31,999 - distributed.worker.memory - WARNING - Worker is at 49% memory usage. Resuming worker. Process memory: 1.85 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:19:32,787 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.91 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:19:32,788 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.19s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:19:33,600 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.01 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:19:36,300 - distributed.worker.memory - WARNING - Worker is at 48% memory usage. Resuming worker. Process memory: 1.80 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:21:12,547 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:21:12,547 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:21:12,549 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.45s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:21:16,100 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:33:10,705 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:33:14,433 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.73s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:33:22,208 - distributed.core - INFO - Event loop was unresponsive in Worker for 7.77s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:33:45,102 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:33:45,102 - distributed.core - INFO - Event loop was unresponsive in Worker for 6.10s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:33:48,199 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.98 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:33:55,371 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:33:55,598 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:46:12,756 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.20s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:46:16,967 - distributed.core - INFO - Event loop was unresponsive in Worker for 4.21s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-26 10:46:31,433 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.84 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:46:33,599 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:46:41,397 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:47:20,135 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.90 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:47:20,498 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.00 GiB -- Worker memory limit: 3.73 GiB
+2024-06-26 10:47:21,698 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+=>> PBS: job killed: walltime 14516 exceeded limit 14400
+2024-06-26 11:55:43,545 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-26 11:55:43,545 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.88:40987'. Reason: signal-15
+2024-06-26 11:55:43,545 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-26 11:55:43,560 - distributed.nanny - INFO - Worker process 33685 was killed by signal 15
+2024-06-26 11:55:43,564 - distributed.dask_worker - INFO - End worker

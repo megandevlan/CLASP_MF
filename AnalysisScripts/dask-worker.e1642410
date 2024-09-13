@@ -1,0 +1,94 @@
+2024-06-27 08:12:57,221 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.62:35719'
+2024-06-27 08:13:00,933 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.62:46415
+2024-06-27 08:13:00,933 - distributed.worker - INFO -          Listening to: tcp://128.117.208.62:46415
+2024-06-27 08:13:00,933 - distributed.worker - INFO -           Worker name:              PBSCluster-18
+2024-06-27 08:13:00,933 - distributed.worker - INFO -          dashboard at:       128.117.208.62:45419
+2024-06-27 08:13:00,934 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.86:37311
+2024-06-27 08:13:00,934 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:00,934 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 08:13:00,934 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-27 08:13:00,934 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-60okxtx5
+2024-06-27 08:13:00,934 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:18,565 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 08:13:18,567 - distributed.worker - INFO -         Registered to: tcp://128.117.208.86:37311
+2024-06-27 08:13:18,568 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:18,569 - distributed.core - INFO - Starting established connection to tcp://128.117.208.86:37311
+2024-06-27 10:54:38,779 - distributed.worker - ERROR - Worker stream died during communication: tcp://128.117.208.106:45739
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils.py", line 1935, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 547, in connect
+    stream = await self.client.connect(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/tornado/tcpclient.py", line 279, in connect
+    af, addr, stream = await connector.start(connect_timeout=timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/core.py", line 342, in connect
+    comm = await wait_for(
+           ^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils.py", line 1934, in wait_for
+    async with asyncio.timeout(timeout):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/asyncio/timeouts.py", line 111, in __aexit__
+    raise TimeoutError from exc_val
+TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 2056, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 2857, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1619, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1563, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/core.py", line 368, in connect
+    raise OSError(
+OSError: Timed out trying to connect to tcp://128.117.208.106:45739 after 30 s
+2024-06-27 11:01:40,209 - distributed.core - INFO - Connection to tcp://128.117.208.86:37311 has been closed.
+2024-06-27 11:01:40,210 - distributed.worker - INFO - Stopping worker at tcp://128.117.208.62:46415. Reason: worker-handle-scheduler-connection-broken
+2024-06-27 11:01:40,231 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://128.117.208.62:35719'. Reason: worker-handle-scheduler-connection-broken
+2024-06-27 11:01:40,233 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 1252, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils_comm.py", line 455, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils_comm.py", line 434, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1394, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1153, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://128.117.208.62:48450 remote=tcp://128.117.208.86:37311>: Stream is closed
+2024-06-27 11:01:40,238 - distributed.nanny - INFO - Worker closed
+2024-06-27 11:01:44,385 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.62:35719'. Reason: nanny-close-gracefully
+2024-06-27 11:01:44,386 - distributed.dask_worker - INFO - End worker

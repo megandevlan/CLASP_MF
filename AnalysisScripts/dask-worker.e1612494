@@ -1,0 +1,55 @@
+2024-06-20 17:27:02,928 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.65:42101'
+2024-06-20 17:27:07,912 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.65:38485
+2024-06-20 17:27:07,914 - distributed.worker - INFO -          Listening to: tcp://128.117.208.65:38485
+2024-06-20 17:27:07,914 - distributed.worker - INFO -           Worker name:               PBSCluster-8
+2024-06-20 17:27:07,914 - distributed.worker - INFO -          dashboard at:       128.117.208.65:36057
+2024-06-20 17:27:07,914 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.98:40727
+2024-06-20 17:27:07,914 - distributed.worker - INFO - -------------------------------------------------
+2024-06-20 17:27:07,914 - distributed.worker - INFO -               Threads:                          1
+2024-06-20 17:27:07,914 - distributed.worker - INFO -                Memory:                   9.31 GiB
+2024-06-20 17:27:07,914 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-6z8f66py
+2024-06-20 17:27:07,914 - distributed.worker - INFO - -------------------------------------------------
+2024-06-20 17:27:09,993 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-20 17:27:09,995 - distributed.worker - INFO -         Registered to: tcp://128.117.208.98:40727
+2024-06-20 17:27:09,995 - distributed.worker - INFO - -------------------------------------------------
+2024-06-20 17:27:09,995 - distributed.core - INFO - Starting established connection to tcp://128.117.208.98:40727
+2024-06-20 17:29:34,799 - distributed.core - INFO - Event loop was unresponsive in Worker for 6.00s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-20 18:02:43,273 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/tornado/iostream.py", line 861, in _read_to_buffer
+    bytes_read = self.read_from_fd(buf)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/tornado/iostream.py", line 1116, in read_from_fd
+    return self.socket.recv_into(buf, len(buf))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 1252, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils_comm.py", line 455, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils_comm.py", line 434, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1394, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1153, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 140, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://128.117.208.65:55552 remote=tcp://128.117.208.98:40727>: ConnectionResetError: [Errno 104] Connection reset by peer
+2024-06-20 18:02:43,937 - distributed.core - INFO - Connection to tcp://128.117.208.98:40727 has been closed.
+2024-06-20 18:02:43,938 - distributed.worker - INFO - Stopping worker at tcp://128.117.208.65:38485. Reason: worker-handle-scheduler-connection-broken
+2024-06-20 18:02:43,941 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://128.117.208.65:42101'. Reason: worker-handle-scheduler-connection-broken
+2024-06-20 18:02:43,946 - distributed.nanny - INFO - Worker closed
+2024-06-20 18:02:48,928 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.65:42101'. Reason: nanny-close-gracefully
+2024-06-20 18:02:48,929 - distributed.dask_worker - INFO - End worker

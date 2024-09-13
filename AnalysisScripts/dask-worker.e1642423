@@ -1,0 +1,115 @@
+2024-06-27 08:12:57,220 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.62:41065'
+2024-06-27 08:13:00,933 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.62:35447
+2024-06-27 08:13:00,934 - distributed.worker - INFO -          Listening to: tcp://128.117.208.62:35447
+2024-06-27 08:13:00,934 - distributed.worker - INFO -           Worker name:               PBSCluster-6
+2024-06-27 08:13:00,934 - distributed.worker - INFO -          dashboard at:       128.117.208.62:33965
+2024-06-27 08:13:00,934 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.86:37311
+2024-06-27 08:13:00,934 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:00,934 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 08:13:00,934 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-27 08:13:00,934 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-pe111q33
+2024-06-27 08:13:00,934 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:18,574 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 08:13:18,575 - distributed.worker - INFO -         Registered to: tcp://128.117.208.86:37311
+2024-06-27 08:13:18,576 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:18,576 - distributed.core - INFO - Starting established connection to tcp://128.117.208.86:37311
+2024-06-27 09:09:45,052 - distributed.worker.memory - WARNING - Worker is at 94% memory usage. Pausing worker.  Process memory: 3.51 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:09:45,739 - distributed.worker.memory - WARNING - Worker is at 50% memory usage. Resuming worker. Process memory: 1.87 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:12:59,947 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.00 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:12:59,960 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.00 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:00,373 - distributed.worker.memory - WARNING - Worker is at 8% memory usage. Resuming worker. Process memory: 310.15 MiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:09,773 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.00 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:09,974 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.07 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:11,373 - distributed.worker.memory - WARNING - Worker is at 50% memory usage. Resuming worker. Process memory: 1.89 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:19,574 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.01 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:19,974 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.15 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:13:21,074 - distributed.worker.memory - WARNING - Worker is at 50% memory usage. Resuming worker. Process memory: 1.90 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:14:42,891 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 3.07 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:14:42,899 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.07 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:14:43,573 - distributed.worker.memory - WARNING - Worker is at 7% memory usage. Resuming worker. Process memory: 305.24 MiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:14:47,108 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:14:48,027 - distributed.nanny.memory - WARNING - Worker tcp://128.117.208.62:35447 (pid=19918) exceeded 95% memory budget. Restarting...
+2024-06-27 09:14:48,064 - distributed.nanny - INFO - Worker process 19918 was killed by signal 15
+2024-06-27 09:14:48,078 - distributed.nanny - WARNING - Restarting worker
+2024-06-27 09:14:50,167 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.62:44377
+2024-06-27 09:14:50,167 - distributed.worker - INFO -          Listening to: tcp://128.117.208.62:44377
+2024-06-27 09:14:50,167 - distributed.worker - INFO -           Worker name:               PBSCluster-6
+2024-06-27 09:14:50,167 - distributed.worker - INFO -          dashboard at:       128.117.208.62:37019
+2024-06-27 09:14:50,167 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.86:37311
+2024-06-27 09:14:50,167 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 09:14:50,167 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 09:14:50,167 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-27 09:14:50,167 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-_vyibn22
+2024-06-27 09:14:50,167 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 09:14:53,049 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 09:14:53,049 - distributed.worker - INFO -         Registered to: tcp://128.117.208.86:37311
+2024-06-27 09:14:53,050 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 09:14:53,050 - distributed.core - INFO - Starting established connection to tcp://128.117.208.86:37311
+2024-06-27 09:17:52,383 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 2.87 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:17:52,850 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 2.99 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:17:54,351 - distributed.worker.memory - WARNING - Worker is at 5% memory usage. Resuming worker. Process memory: 203.05 MiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:26:39,187 - distributed.worker.memory - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 3.24 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:26:39,580 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.29 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:26:40,251 - distributed.worker.memory - WARNING - Worker is at 49% memory usage. Resuming worker. Process memory: 1.84 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:24,411 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:24,421 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:24,473 - distributed.worker.memory - WARNING - Worker is at 6% memory usage. Resuming worker. Process memory: 249.85 MiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:27,675 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 3.20 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:28,404 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:45,951 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:28:46,604 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:14,061 - distributed.worker.memory - WARNING - Worker is at 80% memory usage. Pausing worker.  Process memory: 3.01 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:15,164 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:15,249 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:19,379 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 3.29 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:20,118 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:34,464 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 3.32 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:30:35,155 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:43:52,319 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:43:52,993 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:44:07,262 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 3.13 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:44:08,042 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:44:20,345 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:44:20,990 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:45:05,358 - distributed.worker.memory - WARNING - Worker is at 90% memory usage. Pausing worker.  Process memory: 3.36 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:45:06,034 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:45:21,770 - distributed.worker.memory - WARNING - Worker is at 82% memory usage. Pausing worker.  Process memory: 3.09 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:45:22,541 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:45:34,757 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 09:45:35,429 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.79 GiB -- Worker memory limit: 3.73 GiB
+2024-06-27 10:53:41,644 - distributed.core - INFO - Connection to tcp://128.117.208.86:37311 has been closed.
+2024-06-27 10:53:42,298 - distributed.worker - INFO - Stopping worker at tcp://128.117.208.62:44377. Reason: worker-handle-scheduler-connection-broken
+2024-06-27 10:53:42,317 - distributed.nanny - INFO - Closing Nanny gracefully at 'tcp://128.117.208.62:41065'. Reason: worker-handle-scheduler-connection-broken
+2024-06-27 10:53:42,322 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 1252, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils_comm.py", line 455, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils_comm.py", line 434, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1394, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1153, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 237, in read
+    convert_stream_closed_error(self, e)
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://128.117.208.62:59368 remote=tcp://128.117.208.86:37311>: Stream is closed
+2024-06-27 10:53:42,327 - distributed.nanny - INFO - Worker closed
+2024-06-27 10:53:51,356 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.62:41065'. Reason: nanny-close-gracefully
+2024-06-27 10:53:51,370 - distributed.dask_worker - INFO - End worker

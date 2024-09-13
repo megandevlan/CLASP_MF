@@ -1,0 +1,21 @@
+2024-06-27 12:21:05,058 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.82:42103'
+2024-06-27 12:21:11,057 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.82:44693
+2024-06-27 12:21:11,059 - distributed.worker - INFO -          Listening to: tcp://128.117.208.82:44693
+2024-06-27 12:21:11,059 - distributed.worker - INFO -           Worker name:               PBSCluster-1
+2024-06-27 12:21:11,059 - distributed.worker - INFO -          dashboard at:       128.117.208.82:42247
+2024-06-27 12:21:11,059 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.86:37311
+2024-06-27 12:21:11,059 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:21:11,059 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 12:21:11,059 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-27 12:21:11,059 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-6gfsnepy
+2024-06-27 12:21:11,059 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:21:14,349 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 12:21:14,350 - distributed.worker - INFO -         Registered to: tcp://128.117.208.86:37311
+2024-06-27 12:21:14,350 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:21:14,350 - distributed.core - INFO - Starting established connection to tcp://128.117.208.86:37311
+2024-06-27 12:24:49,589 - distributed.core - INFO - Event loop was unresponsive in Worker for 7.92s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-27 13:44:20,209 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-27 13:44:20,211 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.82:42103'. Reason: signal-15
+2024-06-27 13:44:20,212 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-27 13:44:20,221 - distributed.nanny - INFO - Worker process 34070 was killed by signal 15
+2024-06-27 13:44:20,224 - distributed.dask_worker - INFO - End worker

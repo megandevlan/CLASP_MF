@@ -1,0 +1,23 @@
+2024-06-21 07:53:04,833 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.88:43493'
+2024-06-21 07:53:10,022 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.88:39873
+2024-06-21 07:53:10,023 - distributed.worker - INFO -          Listening to: tcp://128.117.208.88:39873
+2024-06-21 07:53:10,024 - distributed.worker - INFO -           Worker name:              PBSCluster-15
+2024-06-21 07:53:10,024 - distributed.worker - INFO -          dashboard at:       128.117.208.88:43369
+2024-06-21 07:53:10,024 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.112:39365
+2024-06-21 07:53:10,024 - distributed.worker - INFO - -------------------------------------------------
+2024-06-21 07:53:10,024 - distributed.worker - INFO -               Threads:                          1
+2024-06-21 07:53:10,024 - distributed.worker - INFO -                Memory:                   9.31 GiB
+2024-06-21 07:53:10,024 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-t1vf6rhc
+2024-06-21 07:53:10,024 - distributed.worker - INFO - -------------------------------------------------
+2024-06-21 07:53:18,140 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-21 07:53:18,140 - distributed.worker - INFO -         Registered to: tcp://128.117.208.112:39365
+2024-06-21 07:53:18,141 - distributed.worker - INFO - -------------------------------------------------
+2024-06-21 07:53:18,142 - distributed.core - INFO - Starting established connection to tcp://128.117.208.112:39365
+2024-06-21 07:55:41,994 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.53s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-21 07:55:45,347 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.35s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+=>> PBS: job killed: walltime 3611 exceeded limit 3600
+2024-06-21 08:53:03,817 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-21 08:53:03,817 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.88:43493'. Reason: signal-15
+2024-06-21 08:53:03,817 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-21 08:53:03,832 - distributed.nanny - INFO - Worker process 6645 was killed by signal 15
+2024-06-21 08:53:03,893 - distributed.dask_worker - INFO - End worker

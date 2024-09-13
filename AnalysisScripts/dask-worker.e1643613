@@ -1,0 +1,21 @@
+2024-06-27 12:20:47,184 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.89:44033'
+2024-06-27 12:20:48,048 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.89:37061
+2024-06-27 12:20:48,048 - distributed.worker - INFO -          Listening to: tcp://128.117.208.89:37061
+2024-06-27 12:20:48,048 - distributed.worker - INFO -           Worker name:               PBSCluster-8
+2024-06-27 12:20:48,048 - distributed.worker - INFO -          dashboard at:       128.117.208.89:34969
+2024-06-27 12:20:48,049 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.86:37311
+2024-06-27 12:20:48,049 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:20:48,049 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 12:20:48,049 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-27 12:20:48,049 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-hg4qsols
+2024-06-27 12:20:48,049 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:20:48,358 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 12:20:48,358 - distributed.worker - INFO -         Registered to: tcp://128.117.208.86:37311
+2024-06-27 12:20:48,359 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:20:48,359 - distributed.core - INFO - Starting established connection to tcp://128.117.208.86:37311
+2024-06-27 12:24:39,177 - distributed.utils_perf - INFO - full garbage collection released 19.92 MiB from 0 reference cycles (threshold: 9.54 MiB)
+2024-06-27 13:44:19,604 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-27 13:44:19,607 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.89:44033'. Reason: signal-15
+2024-06-27 13:44:19,607 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-27 13:44:19,628 - distributed.nanny - INFO - Worker process 60253 was killed by signal 15
+2024-06-27 13:44:19,635 - distributed.dask_worker - INFO - End worker

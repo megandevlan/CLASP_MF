@@ -1,0 +1,97 @@
+2024-06-27 08:12:57,220 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.62:42807'
+2024-06-27 08:13:00,933 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.62:43297
+2024-06-27 08:13:00,933 - distributed.worker - INFO -          Listening to: tcp://128.117.208.62:43297
+2024-06-27 08:13:00,933 - distributed.worker - INFO -           Worker name:               PBSCluster-3
+2024-06-27 08:13:00,933 - distributed.worker - INFO -          dashboard at:       128.117.208.62:37645
+2024-06-27 08:13:00,933 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.86:37311
+2024-06-27 08:13:00,933 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:00,933 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 08:13:00,934 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-27 08:13:00,934 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-sewby30f
+2024-06-27 08:13:00,934 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:18,566 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 08:13:18,568 - distributed.worker - INFO -         Registered to: tcp://128.117.208.86:37311
+2024-06-27 08:13:18,568 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 08:13:18,569 - distributed.core - INFO - Starting established connection to tcp://128.117.208.86:37311
+2024-06-27 10:54:30,350 - distributed.worker - ERROR - Worker stream died during communication: tcp://128.117.208.106:45739
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/core.py", line 342, in connect
+    comm = await wait_for(
+           ^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils.py", line 1935, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 560, in connect
+    convert_stream_closed_error(self, e)
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 140, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x146da8fabb10>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 2056, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 2857, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1619, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1563, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/core.py", line 368, in connect
+    raise OSError(
+OSError: Timed out trying to connect to tcp://128.117.208.106:45739 after 30 s
+2024-06-27 11:06:28,787 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.60s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-27 11:06:47,289 - distributed.core - INFO - Event loop was unresponsive in Worker for 5.25s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-27 11:15:40,217 - distributed.core - INFO - Event loop was unresponsive in Worker for 7.32s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-27 11:15:49,825 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.95s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-27 11:16:10,219 - distributed.worker - ERROR - Worker stream died during communication: tcp://128.117.208.62:44737
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/core.py", line 342, in connect
+    comm = await wait_for(
+           ^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/utils.py", line 1935, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 560, in connect
+    convert_stream_closed_error(self, e)
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/tcp.py", line 140, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc.__class__.__name__}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <distributed.comm.tcp.TCPConnector object at 0x146d595f3850>: ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 2056, in gather_dep
+    response = await get_data_from_worker(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/worker.py", line 2857, in get_data_from_worker
+    comm = await rpc.connect(worker)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1619, in connect
+    return await self._connect(addr=addr, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/core.py", line 1563, in _connect
+    comm = await connect(
+           ^^^^^^^^^^^^^^
+  File "/glade/u/apps/opt/conda/envs/npl-2024a/lib/python3.11/site-packages/distributed/comm/core.py", line 368, in connect
+    raise OSError(
+OSError: Timed out trying to connect to tcp://128.117.208.62:44737 after 30 s
+=>> PBS: job killed: walltime 14403 exceeded limit 14400
+2024-06-27 12:12:45,727 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-27 12:12:45,728 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.62:42807'. Reason: signal-15
+2024-06-27 12:12:45,728 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-27 12:12:45,828 - distributed.nanny - INFO - Worker process 19956 was killed by signal 15
+2024-06-27 12:12:45,937 - distributed.dask_worker - INFO - End worker

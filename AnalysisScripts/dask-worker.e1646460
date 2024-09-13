@@ -1,0 +1,40 @@
+2024-06-28 08:22:12,603 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.91:44179'
+2024-06-28 08:22:13,453 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.91:45017
+2024-06-28 08:22:13,453 - distributed.worker - INFO -          Listening to: tcp://128.117.208.91:45017
+2024-06-28 08:22:13,454 - distributed.worker - INFO -           Worker name:              PBSCluster-19
+2024-06-28 08:22:13,454 - distributed.worker - INFO -          dashboard at:       128.117.208.91:35183
+2024-06-28 08:22:13,454 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.103:43767
+2024-06-28 08:22:13,454 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:13,454 - distributed.worker - INFO -               Threads:                          1
+2024-06-28 08:22:13,454 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-28 08:22:13,454 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-sgh6k54z
+2024-06-28 08:22:13,454 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:15,981 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-28 08:22:15,981 - distributed.worker - INFO -         Registered to: tcp://128.117.208.103:43767
+2024-06-28 08:22:15,982 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:15,982 - distributed.core - INFO - Starting established connection to tcp://128.117.208.103:43767
+2024-06-28 08:23:22,864 - distributed.core - INFO - Event loop was unresponsive in Worker for 3.88s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-28 09:41:22,481 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 3.14 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:41:22,481 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.14 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:41:23,079 - distributed.worker.memory - WARNING - Worker is at 48% memory usage. Resuming worker. Process memory: 1.82 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:43:47,077 - distributed.worker.memory - WARNING - Worker is at 81% memory usage. Pausing worker.  Process memory: 3.04 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:43:48,210 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.78 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:44:49,735 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 3.20 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:44:50,495 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:35,454 - distributed.worker.memory - WARNING - Worker is at 83% memory usage. Pausing worker.  Process memory: 3.12 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:35,793 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.23 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:36,278 - distributed.worker.memory - WARNING - Worker is at 49% memory usage. Resuming worker. Process memory: 1.85 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:47:05,135 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 3.32 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:47:05,139 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.32 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:47:05,477 - distributed.worker.memory - WARNING - Worker is at 5% memory usage. Resuming worker. Process memory: 218.14 MiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:58:41,623 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.41 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:58:41,632 - distributed.worker.memory - WARNING - Unmanaged memory use is high. This may indicate a memory leak or the memory may not be released to the OS; see https://distributed.dask.org/en/latest/worker-memory.html#memory-not-released-back-to-the-os for more information. -- Unmanaged memory: 3.41 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:58:41,777 - distributed.worker.memory - WARNING - Worker is at 48% memory usage. Resuming worker. Process memory: 1.81 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:00:11,292 - distributed.worker.memory - WARNING - Worker is at 86% memory usage. Pausing worker.  Process memory: 3.24 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:00:18,253 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:00:18,260 - distributed.core - INFO - Event loop was unresponsive in Worker for 8.28s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-28 10:18:35,572 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-28 10:18:35,572 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.91:44179'. Reason: signal-15
+2024-06-28 10:18:35,572 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-28 10:18:35,620 - distributed.nanny - INFO - Worker process 34640 was killed by signal 15
+2024-06-28 10:18:35,625 - distributed.dask_worker - INFO - End worker

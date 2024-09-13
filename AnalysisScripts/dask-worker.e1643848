@@ -1,0 +1,20 @@
+2024-06-27 12:53:55,605 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.83:46105'
+2024-06-27 12:53:56,561 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.83:37187
+2024-06-27 12:53:56,561 - distributed.worker - INFO -          Listening to: tcp://128.117.208.83:37187
+2024-06-27 12:53:56,561 - distributed.worker - INFO -           Worker name:              PBSCluster-21
+2024-06-27 12:53:56,561 - distributed.worker - INFO -          dashboard at:       128.117.208.83:34131
+2024-06-27 12:53:56,561 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.108:39039
+2024-06-27 12:53:56,561 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:53:56,561 - distributed.worker - INFO -               Threads:                          1
+2024-06-27 12:53:56,561 - distributed.worker - INFO -                Memory:                   9.31 GiB
+2024-06-27 12:53:56,561 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-8wjnnsra
+2024-06-27 12:53:56,561 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:53:58,584 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-27 12:53:58,585 - distributed.worker - INFO -         Registered to: tcp://128.117.208.108:39039
+2024-06-27 12:53:58,585 - distributed.worker - INFO - -------------------------------------------------
+2024-06-27 12:53:58,586 - distributed.core - INFO - Starting established connection to tcp://128.117.208.108:39039
+=>> PBS: job killed: walltime 7208 exceeded limit 7200
+2024-06-27 14:53:53,329 - distributed.nanny - INFO - Worker process 70243 was killed by signal 15
+2024-06-27 14:53:53,384 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-27 14:53:53,386 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.83:46105'. Reason: signal-15
+2024-06-27 14:53:53,394 - distributed.dask_worker - INFO - End worker

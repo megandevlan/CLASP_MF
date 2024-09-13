@@ -1,0 +1,21 @@
+2024-06-21 11:06:26,822 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.100:44323'
+2024-06-21 11:06:27,744 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.100:44109
+2024-06-21 11:06:27,744 - distributed.worker - INFO -          Listening to: tcp://128.117.208.100:44109
+2024-06-21 11:06:27,744 - distributed.worker - INFO -           Worker name:               PBSCluster-6
+2024-06-21 11:06:27,744 - distributed.worker - INFO -          dashboard at:      128.117.208.100:37813
+2024-06-21 11:06:27,744 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.112:37925
+2024-06-21 11:06:27,744 - distributed.worker - INFO - -------------------------------------------------
+2024-06-21 11:06:27,744 - distributed.worker - INFO -               Threads:                          1
+2024-06-21 11:06:27,744 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-21 11:06:27,744 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-a6gqn01n
+2024-06-21 11:06:27,744 - distributed.worker - INFO - -------------------------------------------------
+2024-06-21 11:06:29,708 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-21 11:06:29,709 - distributed.worker - INFO -         Registered to: tcp://128.117.208.112:37925
+2024-06-21 11:06:29,709 - distributed.worker - INFO - -------------------------------------------------
+2024-06-21 11:06:29,709 - distributed.core - INFO - Starting established connection to tcp://128.117.208.112:37925
+=>> PBS: job killed: walltime 14401 exceeded limit 14400
+2024-06-21 15:06:19,218 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-21 15:06:19,218 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.100:44323'. Reason: signal-15
+2024-06-21 15:06:19,219 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-21 15:06:19,232 - distributed.nanny - INFO - Worker process 69421 was killed by signal 15
+2024-06-21 15:06:19,236 - distributed.dask_worker - INFO - End worker

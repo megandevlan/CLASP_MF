@@ -1,0 +1,21 @@
+2024-07-02 09:54:11,616 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.56:45713'
+2024-07-02 09:54:13,124 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.56:33955
+2024-07-02 09:54:13,124 - distributed.worker - INFO -          Listening to: tcp://128.117.208.56:33955
+2024-07-02 09:54:13,124 - distributed.worker - INFO -           Worker name:              PBSCluster-18
+2024-07-02 09:54:13,124 - distributed.worker - INFO -          dashboard at:       128.117.208.56:35607
+2024-07-02 09:54:13,124 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.97:41885
+2024-07-02 09:54:13,124 - distributed.worker - INFO - -------------------------------------------------
+2024-07-02 09:54:13,124 - distributed.worker - INFO -               Threads:                          1
+2024-07-02 09:54:13,124 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-07-02 09:54:13,125 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-baddgeq5
+2024-07-02 09:54:13,125 - distributed.worker - INFO - -------------------------------------------------
+2024-07-02 09:54:13,537 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-07-02 09:54:13,538 - distributed.worker - INFO -         Registered to: tcp://128.117.208.97:41885
+2024-07-02 09:54:13,538 - distributed.worker - INFO - -------------------------------------------------
+2024-07-02 09:54:13,539 - distributed.core - INFO - Starting established connection to tcp://128.117.208.97:41885
+=>> PBS: job killed: walltime 4238 exceeded limit 4200
+2024-07-02 11:04:47,339 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-07-02 11:04:47,340 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.56:45713'. Reason: signal-15
+2024-07-02 11:04:47,340 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-07-02 11:04:47,356 - distributed.nanny - INFO - Worker process 44018 was killed by signal 15
+2024-07-02 11:04:47,360 - distributed.dask_worker - INFO - End worker

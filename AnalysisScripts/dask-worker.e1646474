@@ -1,0 +1,33 @@
+2024-06-28 08:22:13,000 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.102:35757'
+2024-06-28 08:22:13,912 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.102:34267
+2024-06-28 08:22:13,912 - distributed.worker - INFO -          Listening to: tcp://128.117.208.102:34267
+2024-06-28 08:22:13,912 - distributed.worker - INFO -           Worker name:              PBSCluster-12
+2024-06-28 08:22:13,912 - distributed.worker - INFO -          dashboard at:      128.117.208.102:41173
+2024-06-28 08:22:13,912 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.103:43767
+2024-06-28 08:22:13,912 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:13,912 - distributed.worker - INFO -               Threads:                          1
+2024-06-28 08:22:13,912 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-28 08:22:13,912 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-185las3b
+2024-06-28 08:22:13,912 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:17,382 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-28 08:22:17,383 - distributed.worker - INFO -         Registered to: tcp://128.117.208.103:43767
+2024-06-28 08:22:17,383 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:17,384 - distributed.core - INFO - Starting established connection to tcp://128.117.208.103:43767
+2024-06-28 08:22:46,820 - distributed.core - INFO - Event loop was unresponsive in Worker for 4.09s.  This is often caused by long-running GIL-holding functions or moving large chunks of data. This can cause timeouts and instability.
+2024-06-28 09:44:09,801 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 3.31 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:44:10,474 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:26,361 - distributed.worker.memory - WARNING - Worker is at 90% memory usage. Pausing worker.  Process memory: 3.38 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:27,238 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:55:29,680 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 3.33 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:55:30,322 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:56:38,239 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 3.33 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:56:38,882 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:57:58,744 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 3.32 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:57:59,382 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:59:07,951 - distributed.worker.memory - WARNING - Worker is at 89% memory usage. Pausing worker.  Process memory: 3.34 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:59:08,581 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:18:36,366 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-28 10:18:36,367 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.102:35757'. Reason: signal-15
+2024-06-28 10:18:36,370 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-28 10:18:36,383 - distributed.nanny - INFO - Worker process 56769 was killed by signal 15
+2024-06-28 10:18:36,386 - distributed.dask_worker - INFO - End worker

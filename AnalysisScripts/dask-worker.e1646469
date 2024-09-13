@@ -1,0 +1,36 @@
+2024-06-28 08:22:10,451 - distributed.nanny - INFO -         Start Nanny at: 'tcp://128.117.208.84:40543'
+2024-06-28 08:22:11,294 - distributed.worker - INFO -       Start worker at: tcp://128.117.208.84:35405
+2024-06-28 08:22:11,294 - distributed.worker - INFO -          Listening to: tcp://128.117.208.84:35405
+2024-06-28 08:22:11,294 - distributed.worker - INFO -           Worker name:              PBSCluster-18
+2024-06-28 08:22:11,295 - distributed.worker - INFO -          dashboard at:       128.117.208.84:41717
+2024-06-28 08:22:11,295 - distributed.worker - INFO - Waiting to connect to: tcp://128.117.208.103:43767
+2024-06-28 08:22:11,295 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:11,295 - distributed.worker - INFO -               Threads:                          1
+2024-06-28 08:22:11,295 - distributed.worker - INFO -                Memory:                   3.73 GiB
+2024-06-28 08:22:11,295 - distributed.worker - INFO -       Local Directory: /glade/derecho/scratch/mdfowler/tmp/dask-scratch-space/worker-ubn36e3o
+2024-06-28 08:22:11,295 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:15,277 - distributed.worker - INFO - Starting Worker plugin shuffle
+2024-06-28 08:22:15,277 - distributed.worker - INFO -         Registered to: tcp://128.117.208.103:43767
+2024-06-28 08:22:15,278 - distributed.worker - INFO - -------------------------------------------------
+2024-06-28 08:22:15,278 - distributed.core - INFO - Starting established connection to tcp://128.117.208.103:43767
+2024-06-28 09:41:58,876 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 3.29 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:41:59,574 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.76 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:42:19,591 - distributed.worker.memory - WARNING - Worker is at 84% memory usage. Pausing worker.  Process memory: 3.15 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:42:20,327 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.76 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:44:21,855 - distributed.worker.memory - WARNING - Worker is at 88% memory usage. Pausing worker.  Process memory: 3.29 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:44:22,533 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:17,335 - distributed.worker.memory - WARNING - Worker is at 90% memory usage. Pausing worker.  Process memory: 3.37 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:17,935 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:42,690 - distributed.worker.memory - WARNING - Worker is at 85% memory usage. Pausing worker.  Process memory: 3.18 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:46:43,420 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:56:33,325 - distributed.worker.memory - WARNING - Worker is at 91% memory usage. Pausing worker.  Process memory: 3.42 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:56:33,932 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:57:45,435 - distributed.worker.memory - WARNING - Worker is at 90% memory usage. Pausing worker.  Process memory: 3.39 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 09:57:46,038 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:00:45,436 - distributed.worker.memory - WARNING - Worker is at 87% memory usage. Pausing worker.  Process memory: 3.27 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:00:46,104 - distributed.worker.memory - WARNING - Worker is at 47% memory usage. Resuming worker. Process memory: 1.77 GiB -- Worker memory limit: 3.73 GiB
+2024-06-28 10:18:36,052 - distributed._signals - INFO - Received signal SIGTERM (15)
+2024-06-28 10:18:36,052 - distributed.nanny - INFO - Closing Nanny at 'tcp://128.117.208.84:40543'. Reason: signal-15
+2024-06-28 10:18:36,053 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2024-06-28 10:18:36,064 - distributed.nanny - INFO - Worker process 54337 was killed by signal 15
+2024-06-28 10:18:36,067 - distributed.dask_worker - INFO - End worker
